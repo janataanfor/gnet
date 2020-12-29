@@ -1,0 +1,233 @@
+body {
+    direction: rtl;
+    text-align: right;
+    background: rgb(210, 210, 210);
+}
+
+.carousel-item h1,p {
+    color: rgb(114, 114, 114);
+}
+.carousel-item p {
+    
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+
+.myadv {
+    
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.toppad {
+    
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition-duration:0.7s; 
+    -moz-transition-duration:0.7s; 
+    -o-transition-duration:0.7s; 
+    transition-duration:0.7s; 
+}
+.all-cards .card:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transform:scale(1.05,1.05);
+    -moz-transform:scale(1.05,1.05);
+    -o-transform:scale(1.05,1.05);
+    transform:scale(1.05,1.05);
+
+    
+}
+.card .form-control {
+    background-color: rgba(255, 255, 255, 0.5);
+    /* color: #ffffff; */
+}
+.card .btn-primary {
+    background-color: #2a83d1cc
+}
+
+.bg-light {
+   /* background-color: rgba(255, 208, 0, 0.9)!important;*/
+    background-color: rgb(104, 211, 127)!important;
+}
+
+/* .myvisible{
+overflow:hidden;
+height: 170px;
+
+
+  }
+  
+  .myvisible:hover {
+height: 330px;
+visibility: visible;
+   } */
+
+   .close {
+    float: left;
+   }
+
+   .navbar-collapse {
+    flex-grow: 0;
+   }
+   .navbar-brand{
+       margin-right: 0rem;
+   }
+
+   .navbar-toggler {border: none;}
+   .navbar-toggler button {border: 1px solid transparent;}
+
+   
+   .nav-item .dropdown-menu a{text-align: right}
+   .nav-item .dropdown-item:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+   }
+   .nav-item .dropdown-divider{
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+   }
+   
+   .test{
+       
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    /* background: url('../upload/4.jpg') no-repeat center top fixed;
+    background-size: cover; */
+   }
+   .test-color{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    
+   /* background: rgb(210, 210, 210);*/ /* For browsers that do not support gradients*/
+    /*background: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));  For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));  For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));  For Firefox 3.6 to 15 */
+    /*background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));  Standard syntax (must be last) */  
+   }
+  
+@media (max-width: 576px){
+    .order-xs-4 {
+        order: 4;
+    }
+.order-xs-3 {
+    order: 3;
+}
+.order-xs-2 {
+    order: 2;
+}
+.d-xs-none {
+    display: none!important;
+}
+
+.myadv {
+ 
+    padding-bottom: 30px;
+}
+
+}
+@media (max-width: 992px){
+    .go-left{
+        text-align: left;
+    }
+
+    .nav-item .dropdown-menu{ 
+        float: right; background-color: #ffd0004d;
+    }
+}
+
+@media (min-width: 992px){
+    .nav-item .dropdown-menu{ 
+        float: right; background-color: rgba(255, 208, 0, 0.9);}
+}
+
+.modal-header .close {
+    margin: -15px -15px auto -15px;
+}
+
+.modal-footer>:not(:last-child) {
+    margin-left: .25rem;
+}
+
+@media (min-width: 576px) and (max-width: 991px) { 
+   
+ }
+
+ #hlogout {
+  /*display:none; */
+  position: absolute;
+  visibility: hidden;
+ }
+ #huser {
+    cursor:pointer
+ }
+/*  #huser:hover + #hlogout{
+    display:inline;
+   } */
+
+
+.table-light, .table-light>td, .table-light>th {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#sandh span, #sandh a, #sandh strong {
+    color: rgba(0,0,0,.5);
+}
+
+/*test*/
+#sandh {
+    transition-property: visibility, opacity;
+    transition-duration: 0s, 0.7s;
+}
+#sandh .hhh {
+    position: absolute;
+    padding-left: 10px;
+    opacity: 0;
+    visibility: hidden;
+  /*   transition-property: opacity, visibility;
+    transition-duration: 0.7s, 0s;
+    transition-delay: 0s, 0.7s; */
+}
+
+
+#sandh .sss {
+    position: static;
+    padding: 0;
+    padding-left: 5px; 
+    margin: 0;  
+    opacity: 1;
+    visibility: visible;
+    /* transition-property: visibility,  opacity;
+    transition-duration: 0.7s, 0s;
+    transition-delay: 0s, 0.7s; */
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.contact-us{
+    min-height: 400px;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+}
+.more{
+    min-height: 400px;
+    /* background-color: rgba(100, 100, 100, 1); */
+}
+
+.sortbtn:hover {
+    cursor: pointer;
+    color: gray;
+}
